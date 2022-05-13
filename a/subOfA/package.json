@@ -1,0 +1,20 @@
+{
+    "name": "NodeJsApplication-subOfA",
+    "version": "1.0.0",
+       "scripts": {
+    "prepublish": "zip -r NodeJsApplication-subOfA-dist.zip *.js"
+  },
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "ayukumar",
+	"engines": {
+    "node": "0.10.x"
+  },
+    "contributors": [
+    ]
+}

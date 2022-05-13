@@ -1,0 +1,27 @@
+{
+    "name": "NodeJsApplication-root",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "prepublish": "zip -r NodeJsApplication-root-dist.zip manifest.json *.js"
+    },
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "sakeshar",
+    "engines": {
+        "node": "0.10.x"
+    },
+    "contributors": [],
+    "dependencies": {
+        "jquery": "3.0.0-alpha1",
+        "NodeJsApplication-a": "file:a",
+        "http-proxy": "0.5.9",
+        "jsonwebtoken": "4.0.0",
+        "cookie-signature": "1.0.2"
+    }
+}

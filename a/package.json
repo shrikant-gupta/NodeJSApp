@@ -1,0 +1,26 @@
+{
+    "name": "NodeJsApplication-a",
+    "version": "1.0.0",
+       "scripts": {
+    "prepublish": "zip -r NodeJsApplication-a-dist.zip *.js"
+  },
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "ayukumar",
+	"engines": {
+    "node": "0.10.x"
+  },
+    "contributors": [
+    ],
+	"dependencies": {
+	"express": "^4.13.3",
+	"angular":"1.3.19",
+	 "NodeJsApplication-b": "file:../b",
+	 "NodeJsApplication-subOfA": "file:subOfA"
+	}
+}
